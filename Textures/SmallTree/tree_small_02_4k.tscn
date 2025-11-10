@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0yhxn36yddkt"]
+
+[ext_resource type="PackedScene" uid="uid://0wep7lna23lc" path="res://tree_small_02_4k.glb" id="1_g8swu"]
+
+[node name="tree_small_02_4k" instance=ExtResource("1_g8swu")]
+visible = false

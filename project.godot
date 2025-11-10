@@ -1,0 +1,27 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Aelthyrra_0_1"
+run/main_scene="uid://bxdmk8q1do1on"
+config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="Aelthyrra_0_1"
+
+[file_customization]
+
+folder_colors={
+"res://Build/": "red",
+"res://Graphics/": "green"
+}
