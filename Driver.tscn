@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxdmk8q1do1on"]
+
+[ext_resource type="Script" uid="uid://c5k0iryh6s5ql" path="res://Graphics/Backgrounds/Scences/AutumnScene/WorldStreamer/AutumnWorldStreamer.cs" id="1_ee0y4"]
+
+[node name="Driver" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.761883e-05, 0, 0.6916554)
+script = ExtResource("1_ee0y4")
